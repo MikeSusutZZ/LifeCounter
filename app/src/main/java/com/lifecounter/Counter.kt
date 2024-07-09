@@ -96,9 +96,9 @@ fun CounterColumn(
             Button(onClick = { damage -= 10 }) { Text("-10") }
             Spacer(Modifier.width(4.dp))
             Button(onClick = { damage -= 1 }) { Text("-1") }
-            Spacer(Modifier.width(16.dp))
+            Spacer(Modifier.width(12.dp))
             Text("${damage}", fontSize = 20.sp)
-            Spacer(Modifier.width(16.dp))
+            Spacer(Modifier.width(12.dp))
             Button(onClick = { damage += 1 }) { Text("+1") }
             Spacer(Modifier.width(4.dp))
             Button(onClick = { damage += 10 }) { Text("+10") }
@@ -111,9 +111,9 @@ fun CounterColumn(
             Button(onClick = { heal -= 10 }) { Text("-10") }
             Spacer(Modifier.width(4.dp))
             Button(onClick = { heal -= 1 }) { Text("-1") }
-            Spacer(Modifier.width(16.dp))
+            Spacer(Modifier.width(12.dp))
             Text("${heal}", fontSize = 20.sp)
-            Spacer(Modifier.width(16.dp))
+            Spacer(Modifier.width(12.dp))
             Button(onClick = { heal += 1 }) { Text("+1") }
             Spacer(Modifier.width(4.dp))
             Button(onClick = { heal += 10 }) { Text("+10") }
